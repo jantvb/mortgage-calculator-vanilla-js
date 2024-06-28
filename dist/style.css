@@ -1,0 +1,15 @@
+label {
+  display: block;
+}
+
+button {
+  display: block;
+}
+
+.space-content {
+  margin-bottom: 10px;
+}
+
+.hide {
+  display: none;
+}

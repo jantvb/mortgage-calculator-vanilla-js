@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mortgage calculator - Vanilla JS template</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title>Mortgage calculator</title>
+  </head>
+  <body>
+    <div class="space-content">
+      <label for="loanAmount">Principal loan amount</label>
+      <input 
+         id="loanAmount"
+         type="number"
+         inputmode="numeric"
+         required>
+    </div>
+    <div  class="space-content">
+      <label for="interestRate">Interest rate</label>
+      <input 
+         id="interestRate"
+         type="number"
+         inputmode="decimal"
+         required> <span> %</span>
+    </div>
+    <div  class="space-content">
+      <label for="lengthLoan">Lenght of loan</label>
+      <input 
+         id="lengthLoan"
+         type="number"
+         inputmode="numeric"
+         required> <span> Years</span>
+    </div>
+    <button class="space-content" onclick="calculate()">Calculate</button>
+    <p id="mortgage-msg" class="hide"></p>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
